@@ -9,6 +9,10 @@ https://umsystem.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5bd5898a-6a13-4
 Colab notebook: 
 https://colab.research.google.com/drive/1OxoevcOoYx5cksIoHuDnLI71K6XQRLde?usp=sharing
 
+Git Link:
+https://github.com/Lagniappe52/Vision-Transformer.git
+
+
 README Instructions for ViT:
 1.	Save notebook as ViT_app.py
 2.	Open terminal and change directory to file location using ‘cd C:\file_location’
