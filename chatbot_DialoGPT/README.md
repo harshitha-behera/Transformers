@@ -35,8 +35,9 @@ pip install streamlit transformers torch
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/your-username/enhanced-chatbot.git
-cd enhanced-chatbot
+git clone https://github.com/harshitha-behera/Transformers/tree/b32eee5cbf81158bd52e449eb8a23139e350d825/chatbot_DialoGPT
+cd Transformers
+cd chatbot_DialoGPT
 ```
 
 2. **Run the Streamlit application:**
