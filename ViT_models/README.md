@@ -1,3 +1,34 @@
+# Vision-Transformer
+An AI-driven vision model developed by Google that can provide contextual information for images.
+
+## Features
+1. Image Classification
+2. Interactive web application using Streamlit
+
+## Requirements
+Python 3.8+
+
+Install required libraries:
+```
+pip install transformers torch streamlit
+```
+
+## Usage
+1. Clone the repository
+```
+https://github.com/your_username/Vision-Transformer.git
+```
+2. Set directory
+```
+cd \file_location
+```
+3. Run the Streamlit application
+```
+streamlit run ViT_app.py
+```
+4. The application will automatically open in your browser
+
+
 Jason Jordan: Implementation of vision transformer for assessment of image content
 The purpose of this hands-on project is to classify images containing American football-related scenes. This is an evaluation of transformer models to determine suitability for use in the CSC 5542 class project, which seeks to analyze football player performance and mobility data to generate a scouting report to assist teams with game preparation and strategy modification. A vision transformer (ViT) was utilized to analyze football-related images, such as live-action video, game play still shots, stadium scenery, and/or play formation diagrams.
 The ViT used in this project was the ‘Vit Large Patch16 384’ which was pre-trained on a dataset of over 14 million images for classification into one of the 1,000 ImageNet classes. A video link is provided below that shows the operation of the program, which creates a Streamlit application to classify a given image and allows a user to upload an additional image for classification.
