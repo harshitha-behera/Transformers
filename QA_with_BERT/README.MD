@@ -1,4 +1,5 @@
 Jainil Patel: Implementation of BERT for Context-Based Question Answering
+
 The purpose of this project is to develop a question-answering (QA) system using BERT, a state-of-the-art natural language processing model, to enable AI scouts to efficiently extract relevant information from large text passages. This work supports the broader goal of the CSC 5542 class project, which aims to build an AI-powered scouting assistant capable of analyzing diverse data sources (e.g., player statistics, game footage, and online articles) to generate actionable insights for sports teams. The QA system implemented here allows users to input a context paragraph (e.g., a scouting report or article) and ask specific questions to retrieve precise answers, reducing the time spent manually searching for information.
 Model and Implementation
 The system leverages BERT-Large-Uncased (Whole Word Masking), a pre-trained model fine-tuned on the Stanford Question Answering Dataset (SQuAD). Unlike generative models, this extractive QA model identifies the exact span of text within the provided context that answers the question, ensuring factual consistency.
@@ -33,12 +34,16 @@ To better serve scouting needs, the model could be:
 3.	Integrated with a retrieval system to automatically fetch relevant context from databases or the web.
 ________________________________________
 Video Demo:
+https://umsystem.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2f4f7dd3-4929-4a68-b0a9-b28c00462d8e
+
 https://umsystem.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6a436d22-7bd1-4a2a-8140-b28c004154ca 
+
 
 Github repo:
 https://github.com/jainilpatel98/Colab-PyTorch-NeuralNetwork/tree/main/Day%205%3A%20Transformers 
 README Instructions:
 1.	Clone the github repo.
 2.	Open a terminal and navigate to the file location: cd Github_repo_location.
-3.	Run streamlit run BERT_QA_app.py to launch the app.
+3.	Run streamlit run bert.py to launch the app.
+4.	Also we have the app for the AI Scout. 
 
